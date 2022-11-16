@@ -1,0 +1,78 @@
+#banner-flex-container{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    height: 100%;
+}
+#banner-text-container{
+    margin-top: 2rem;
+}
+.pink-span-on-banner{
+    color: #ff0076;
+}
+.banner-numbers-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    margin-bottom: 2rem;
+}
+.followers-and-user-container h6{
+    color: white;
+}
+.banner-buttons-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.img-explore{
+    width: 30px;
+    height: 30px;
+}
+.btn-explore{
+    display: grid;
+    grid-template-columns: repeat(1fr, 2fr);
+}
+.btn-place-bid{
+    border: 2px solid white;
+    height: 4rem;
+    border-radius: 3rem;
+    width: 180px;
+    text-align: center;
+}
+.place-bid{
+    color: white;
+    grid-column: 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+.place-bid > p{
+    margin-top: 1rem;
+}
+.place-bid-img{
+    width: 40px;
+    height: 40px;
+    margin-top: 0.8rem;
+}
+#banner-big-img{
+    position: relative;
+    margin-left: 3rem;
+}
+.banner-small-img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.banner-small{
+    border-radius: 50%;
+    margin-bottom: 4rem;
+}
+.banner-play-img{
+    position: absolute;
+    top: 0;
+    left: 2;
+}
+.img-play{
+    width: 80px;
+    height: 80px;
+    margin-top: 13rem;
+    margin-left: 2.5rem;
+}
