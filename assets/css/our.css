@@ -76,3 +76,61 @@
     margin-top: 13rem;
     margin-left: 2.5rem;
 }
+#artists{
+    display: flex;
+    flex-direction: row;
+    height: 25rem;
+    width: 90%;
+    align-content: center;
+    padding-top: 2rem; 
+}
+#artist-container{
+    background-color: #142442;
+    height: 90%;
+    margin: 0 1rem;
+    text-align: center;
+}
+.first-artist{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    margin-right: 2rem;
+    border-radius: 20px;
+}
+.artist-small-container{
+    margin-top: -1.5rem;
+    margin-bottom: 1rem;
+}
+
+.second-artist{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    margin-right: 2rem;
+    border-radius: 20px;
+}
+.third-artist{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    margin-right: 2rem;
+    border-radius: 20px;
+}
+.fourth-artist{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    margin-right: 2rem;
+    border-radius: 20px;
+}
+.artist-big{
+    width: 100%;
+}
+.name-container{
+    margin-bottom: 2rem;
+}
+div > h2 {
+    color: white;
+    margin-top: 1rem;
+    margin-left: 1rem;
+} 
