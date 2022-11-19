@@ -1,136 +1,161 @@
-#banner-flex-container{
+#banner-flex-container {
     display: grid;
     grid-template-columns: repeat(2, 50%);
     height: 100%;
 }
-#banner-text-container{
+
+#banner-text-container {
     margin-top: 2rem;
 }
-.pink-span-on-banner{
+
+.pink-span-on-banner {
     color: #ff0076;
 }
-.banner-numbers-container{
+
+.banner-numbers-container {
     display: flex;
     justify-content: space-evenly;
     width: 40%;
     margin-bottom: 2rem;
 }
-.followers-and-user-container h6{
+
+.followers-and-user-container h6 {
     color: white;
 }
-.banner-buttons-container{
+
+.banner-buttons-container {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
 }
-.img-explore{
+
+.img-explore {
     width: 30px;
     height: 30px;
 }
-.btn-explore{
+
+.btn-explore {
     display: grid;
     grid-template-columns: repeat(1fr, 2fr);
 }
-.btn-place-bid{
+
+.btn-place-bid {
     border: 2px solid white;
     height: 4rem;
     border-radius: 3rem;
     width: 180px;
     text-align: center;
 }
-.place-bid{
+
+.place-bid {
     color: white;
     grid-column: 2;
     display: flex;
     justify-content: space-evenly;
 }
-.place-bid > p{
+
+.place-bid>p {
     margin-top: 1rem;
 }
-.place-bid-img{
+
+.place-bid-img {
     width: 40px;
     height: 40px;
     margin-top: 0.8rem;
 }
-#banner-big-img{
+
+#banner-big-img {
     position: relative;
     margin-left: 3rem;
 }
-.banner-small-img{
+
+.banner-small-img {
     position: absolute;
     bottom: 0;
     right: 0;
 }
-.banner-small{
+
+.banner-small {
     border-radius: 50%;
     margin-bottom: 4rem;
 }
-.banner-play-img{
+
+.banner-play-img {
     position: absolute;
     top: 0;
     left: 2;
 }
-.img-play{
+
+.img-play {
     width: 80px;
     height: 80px;
     margin-top: 13rem;
     margin-left: 2.5rem;
 }
-#artists{
+
+#artists {
     display: flex;
     flex-direction: row;
     height: 25rem;
     width: 90%;
     align-content: center;
-    padding-top: 2rem; 
+    padding-top: 2rem;
 }
-#artist-container{
+
+#artist-container {
     background-color: #142442;
     height: 90%;
     margin: 0 1rem;
     text-align: center;
 }
-.first-artist{
+
+.first-artist {
     display: flex;
     flex-direction: column;
     height: 60%;
     margin-right: 2rem;
     border-radius: 20px;
 }
-.artist-small-container{
+
+.artist-small-container {
     margin-top: -1.5rem;
     margin-bottom: 1rem;
 }
 
-.second-artist{
+.second-artist {
     display: flex;
     flex-direction: column;
     height: 80%;
     margin-right: 2rem;
     border-radius: 20px;
 }
-.third-artist{
+
+.third-artist {
     display: flex;
     flex-direction: column;
     height: 80%;
     margin-right: 2rem;
     border-radius: 20px;
 }
-.fourth-artist{
+
+.fourth-artist {
     display: flex;
     flex-direction: column;
     height: 80%;
     margin-right: 2rem;
     border-radius: 20px;
 }
-.artist-big{
+
+.artist-big {
     width: 100%;
 }
-.name-container{
+
+.name-container {
     margin-bottom: 2rem;
 }
-div > h2 {
+
+div>h2 {
     color: white;
     margin-top: 1rem;
     margin-left: 1rem;
-} 
+}
